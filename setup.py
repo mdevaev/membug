@@ -4,7 +4,7 @@
 import setuptools
 
 
-##### Main #####
+# ===== Main =====
 if __name__ == "__main__":
     setuptools.setup(
         name="membug",

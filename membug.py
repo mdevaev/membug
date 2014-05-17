@@ -2,12 +2,12 @@ import sys
 import gc
 
 
-##### Hacks #####
+# ===== Hacks =====
 if not hasattr(sys, "getrefcount"): # For PyPy3
     sys.getrefcount = ( lambda obj: len(gc.get_referents(obj)) )
 
 
-##### Public methods #####
+# ===== Public methods =====
 def get_objects_by_type():
     by_type = {}
     for obj in gc.get_objects():
