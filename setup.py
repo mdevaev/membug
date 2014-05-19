@@ -20,7 +20,7 @@ if __name__ == "__main__":
             "membug",
         ],
 
-        classifiers=[ # http://pypi.python.org/pypi?:action=list_classifiers
+        classifiers=[  # http://pypi.python.org/pypi?:action=list_classifiers
             "Development Status :: 2 - Pre-Alpha",
             "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
             "Operating System :: OS Independent",
