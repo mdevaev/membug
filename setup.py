@@ -7,7 +7,7 @@ import setuptools
 if __name__ == "__main__":
     setuptools.setup(
         name="membug",
-        version="0.1",
+        version="0.2",
         url="https://github.com/yandex-sysmon/membug",
         license="LGPLv3",
         author="Devaev Maxim",
